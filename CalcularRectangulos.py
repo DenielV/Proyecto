@@ -6,7 +6,7 @@ RecMario = (
 (-0.5, -2.055)
 )
 MarioCambiosSilueta = (
-
+#Izq, derecha y arriba
 (-1,5,1),
 (0,1,1),
 (0,1,1),
@@ -49,7 +49,6 @@ MarioCambiosSilueta = (
 (1,-1,1),
 (1,-1,1),
 (2,-1,1)
-
 )
 
 MarioCambiosRelleno = (
