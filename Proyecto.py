@@ -14,7 +14,7 @@ def MarioSilueta(recsS ):
             glVertex2fv(vertice)
         glEnd()
 
-
+#deniel puto
 def MarioRelleno(recsR, colores, paleta):
     coloresListaIndex = 0
     for recR in recsR:
