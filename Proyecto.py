@@ -4,7 +4,6 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 import CalcularRectangulos
 
-
 def MarioSilueta(recsS ):
     for rectangulo in recsS:
         glDisable(GL_LIGHTING)
