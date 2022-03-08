@@ -14,7 +14,6 @@ def MarioSilueta(recsS ):
             glVertex2fv(vertice)
         glEnd()
 
-#deniel puto
 def MarioRelleno(recsR, colores, paleta):
     coloresListaIndex = 0
     for recR in recsR:
@@ -52,6 +51,10 @@ def main():
                     glTranslatef(-0.15,0,0)
                 if event.key == pygame.K_RIGHT:
                     glTranslatef(0.15,0,0)
+                if event.key == pygame.K_UP:
+                    glTranslatef(0,0.15,0)
+                if event.key == pygame.K_DOWN:
+                    glTranslatef(0,-0.15,0)
         glRotatef(0, 0, 0, 0)
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         MarioSilueta(resultados[0])
